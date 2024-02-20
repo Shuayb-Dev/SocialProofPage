@@ -1,0 +1,191 @@
+body {
+  background-image: url(./imgs/bg-pattern-top-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+.introContainer {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.intro {
+  display: inline-flex;
+  margin: 10px;
+  flex-direction: column;
+  position: relative;
+  left: 100px;
+}
+
+.intro h1 {
+  font-family: "League Spartan", sans-serif;
+  color: hsl(300, 43%, 22%);
+  font-size: 4rem;
+}
+
+.intro p {
+  font-family: "League Spartan", sans-serif;
+  color: hsl(303, 10%, 53%);
+  font-size: 1.5rem;
+  position: relative;
+  left: 0px;
+}
+
+.reviewContainer {
+  display: inline-flex;
+  position: relative;
+  left: 600px;
+  flex-direction: column;
+}
+
+.reviewContainer .reviewOne,
+.reviewTwo,
+.reviewThree {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.5rem;
+  background-color: hsl(300, 24%, 96%);
+  margin: 10px;
+  border-radius: 10px;
+  width: 550px;
+}
+
+.reviewOne {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 300px;
+}
+
+.reviewOne p {
+  position: relative;
+  left: 60px;
+  top: 0px;
+  font-weight: 680;
+  color: hsl(300, 43%, 22%);
+}
+
+.reviewOne img {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 18px;
+  left: 20px;
+  margin: 5px;
+}
+
+.reviewTwo {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 250px;
+}
+
+.reviewTwo p {
+  position: relative;
+  left: 50px;
+  top: 0px;
+  font-weight: 680;
+  color: hsl(300, 43%, 22%);
+}
+
+.reviewTwo img {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 18px;
+  left: 20px;
+  margin: 5px;
+}
+
+.reviewThree {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 180px;
+}
+
+.reviewThree p {
+  position: relative;
+  left: 50px;
+  top: 0px;
+  font-weight: 680;
+  color: hsl(300, 43%, 22%);
+}
+
+.reviewThree img {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 18px;
+  left: 20px;
+  margin: 5px;
+}
+
+.testimonyContainer {
+  display: flex;
+  gap: 50px;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+
+.testimonyContainer > .testimonyTwo {
+  margin-top: 25px; /* Adjust the left margin to offset the second child */
+}
+
+.testimonyContainer > .testimonyThree {
+  margin-top: 50px; /* Adjust the left margin to offset the second child */
+}
+
+.testimonyOne,
+.testimonyTwo,
+.testimonyThree {
+  height: 350px;
+  width: 460px;
+  background-color: hsl(300, 43%, 22%);
+  font-family: "League Spartan", sans-serif;
+  border-radius: 15px;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.avatarName span {
+  position: relative;
+  top: 5px;
+  color: hsl(333, 80%, 67%);
+}
+
+.avatar img {
+  position: relative;
+  top: 15px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+.avatarName {
+  position: relative;
+  display: inline-block;
+  left: 30px;
+  gap: 0px;
+  bottom: 30px;
+}
+
+.testimonyOne,
+.testimonyTwo,
+.testimonyThree,
+p {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.5rem;
+  position: relative;
+  left: 20px;
+  color: white;
+  top: 50px;
+}
