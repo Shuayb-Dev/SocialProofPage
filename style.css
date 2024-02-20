@@ -1,3 +1,10 @@
+#smallScreenText,
+#smallScreenTextTwo,
+#smallScreenTextThree,
+#smallScreenTextFour {
+  display: none;
+}
+
 body {
   background-image: url(./imgs/bg-pattern-top-desktop.svg);
   background-repeat: no-repeat;
@@ -38,7 +45,7 @@ body {
   flex-direction: column;
 }
 
-.reviewContainer .reviewOne,
+.reviewOne,
 .reviewTwo,
 .reviewThree {
   font-family: "League Spartan", sans-serif;
@@ -188,4 +195,227 @@ p {
   left: 20px;
   color: white;
   top: 50px;
+}
+
+@media screen and (max-width: 1400px) {
+  body {
+    width: 500px;
+    background-image: url(./imgs/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+  }
+
+  .introContainer {
+    position: relative;
+    top: 50px;
+    margin-right: 100px;
+  }
+
+  .introContainer .intro h1 {
+    font-family: "League Spartan", sans-serif;
+    color: hsl(300, 43%, 22%);
+    font-size: 3rem;
+    position: relative;
+    right: 150px;
+    text-align: center;
+  }
+
+  .intro p {
+    display: none;
+  }
+
+  #smallScreenText {
+    display: block;
+    font-family: "League Spartan", sans-serif;
+    color: hsl(303, 10%, 53%);
+    font-size: 1.2rem;
+    position: relative;
+    left: -150px;
+    top: -25px;
+    text-align: center;
+  }
+
+  .reviewContainer {
+    display: inline-flex;
+    position: relative;
+    bottom: 50px;
+    left: 200px;
+    flex-direction: column;
+  }
+
+  .reviewOne,
+  .reviewTwo,
+  .reviewThree {
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.5rem;
+    background-color: hsl(300, 24%, 96%);
+    margin: 10px;
+    border-radius: 10px;
+    width: 550px;
+  }
+
+  .reviewOne {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 250px;
+    top: 10px;
+    width: 350px;
+  }
+
+  .reviewOne p {
+    display: none;
+  }
+
+  #smallScreenTextTwo {
+    display: block;
+    position: relative;
+    font-family: "League Spartan", sans-serif;
+    top: 15px;
+    left: -80px;
+    font-size: 1.3rem;
+    font-weight: 680;
+    color: hsl(300, 43%, 22%);
+  }
+
+  .reviewOne img {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    margin: 5px;
+  }
+
+  .reviewTwo {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 250px;
+    top: 10px;
+    width: 350px;
+  }
+
+  .reviewTwo p {
+    display: none;
+  }
+
+  #smallScreenTextThree {
+    display: block;
+    position: relative;
+    font-family: "League Spartan", sans-serif;
+    top: 15px;
+    left: -80px;
+    font-size: 1.3rem;
+    font-weight: 680;
+    color: hsl(300, 43%, 22%);
+  }
+
+  .reviewTwo img {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    margin: 5px;
+  }
+
+  .reviewThree {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 250px;
+    top: 10px;
+    width: 350px;
+  }
+
+  .reviewThree p {
+    display: none;
+  }
+
+  #smallScreenTextFour {
+    display: block;
+    position: relative;
+    font-family: "League Spartan", sans-serif;
+    top: 15px;
+    left: -80px;
+    font-size: 1.3rem;
+    font-weight: 680;
+    color: hsl(300, 43%, 22%);
+  }
+
+  .reviewThree img {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    margin: 5px;
+  }
+
+  .testimonyContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+
+  .testimonyContainer > .testimonyThree {
+    margin-bottom: 50px;
+  }
+
+  .testimonyOne,
+  .testimonyTwo,
+  .testimonyThree {
+    height: 250px;
+    width: 350px;
+    background-color: hsl(300, 43%, 22%);
+    font-family: "League Spartan", sans-serif;
+    border-radius: 15px;
+  }
+
+  .avatar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 10px;
+    top: 10px;
+  }
+
+  .avatarName span {
+    position: relative;
+    top: 5px;
+    color: hsl(333, 80%, 67%);
+  }
+
+  .avatar img {
+    position: relative;
+    top: 15px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+  }
+
+  .avatarName {
+    position: relative;
+    display: inline-block;
+    left: 30px;
+    gap: 0px;
+    bottom: 30px;
+  }
+
+  .testimonyOne,
+  .testimonyTwo,
+  .testimonyThree,
+  p {
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    color: white;
+    top: 30px;
+  }
 }
